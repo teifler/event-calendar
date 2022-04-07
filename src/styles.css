@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 26px;
+  width: 350px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border: 1px solid black;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container h3 {
+  align-self: center;
+  margin-right: 95%;
+  margin-bottom: 0px;
+  font-size: 1.1rem;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.infoBox p {
+  margin-right: 5px;
+}
+
+.positionRel {
+  position: relative;
+}
+
+.recyling-icon {
+  position: absolute;
+  z-index: 2;
+  left: 5px;
+  bottom: 0px;
+}
+
+.papertrash-icon {
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  bottom: 0;
+}
+
+.plastictrash-icon {
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  left: 33px;
+}
