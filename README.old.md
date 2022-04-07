@@ -1,2 +1,0 @@
-# event-calendar
-event-calendar
